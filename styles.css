@@ -98,7 +98,7 @@ ul li:hover ul.dropdn{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 40vh;
     background: url('bg.jpg');
     background-position: center;
     background-size: cover;

@@ -676,6 +676,10 @@ footer {
         background-color: #ff0000b0;
     }
 
+    .hero {
+        height: 30vh;
+    }
+
 .hero-container h1{
     font-size: 3rem;
 }
@@ -700,7 +704,6 @@ footer {
 .home-content img{
     width: 300px;
     border-radius: 10px;
-    border: 1px solid #000;
     margin-top: 30px;
     margin-bottom: 30px;
     animation: scamImage 2s ease-in-out infinite;

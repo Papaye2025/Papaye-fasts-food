@@ -120,7 +120,7 @@ ul li:hover ul.dropdn{
 }
 
 .hero-container h1{
-    font-size: 6rem;
+    font-size: 5rem;
     color: yellow;
 }
 
@@ -186,9 +186,8 @@ ul li:hover ul.dropdn{
     line-height: 30px;
     letter-spacing: 1.2px;
     border-radius: 3px;
-    padding: 5px;
+    padding: 10px;
     font-family: sans-serif, 'Times New Roman', Times, serif;
-    box-shadow: 0 0 10px;
     background-color: beige;
 }
 
@@ -202,7 +201,7 @@ ul li:hover ul.dropdn{
 }
 
  .showcase-image img{
-    width: 250px;
+    width: 200px;
     margin: 5px;
     border-radius: 3px; 
     margin-left: 65px;
@@ -608,7 +607,7 @@ footer {
 
 /* Images Slightshow */
 .slideshow-container {
-            max-width: 500px;
+            max-width: 580px;
             position: relative;
             margin: 30px;
             height: 30vh;

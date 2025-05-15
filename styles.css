@@ -363,7 +363,7 @@ ul li:hover ul.dropdn{
 
 fieldset{
     border-radius: 5px;
-    box-shadow: 2px 4px 18px;
+/*     box-shadow: 2px 4px 18px; */
     border: none;
 }
 
@@ -609,6 +609,11 @@ footer {
 
 .foot-img img:hover{
     background-color: #ff0000b0;
+}
+
+.social-icons {
+    color: beige;
+    margi: 20px;
 }
 
 /* Images Slightshow */

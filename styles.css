@@ -90,6 +90,16 @@ ul li:hover ul.dropdn{
     display: block;
 }
 
+.privacy-section {
+    margin-toop: 40px;
+    padding: 20px;
+}
+
+.privacy-section h1, h2, h3 {
+    align-self: start;
+    color: #ff00b
+}
+
 /* Hero Section Start  */
 
 .hero{

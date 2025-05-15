@@ -853,11 +853,11 @@ legend{
 .slideshow-container {
             max-width: 200px;
             position: relative;
-            margin: 30px;
+            margin: 10px;
             height: 30vh;
         }
         .slideshow-container img {
             margin-left: 15%;
-            width: 200px;
+            width: 100px;
             margin-top: 20px;
         }

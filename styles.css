@@ -613,7 +613,8 @@ footer {
 
 .social-icons a {
     color: beige;
-    margi: 20px;
+    margin: 20px;
+    font-size: 20px;
 }
 
 /* Images Slightshow */

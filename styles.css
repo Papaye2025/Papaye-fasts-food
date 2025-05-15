@@ -353,7 +353,7 @@ ul li:hover ul.dropdn{
 /* Form Section Start */
 .form-section{
     padding: 5%;
-    height: 50vh;
+    height: 100vh;
 }
 
 .form-section h1{
@@ -542,6 +542,12 @@ legend{
    margin: 10px;
    box-shadow: 0 0 5px;
    padding: 10px;
+}
+
+.extra-content:hover { 
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px #ff0000;
+    border-radius: 5;
 }
 
 .extra-content img{

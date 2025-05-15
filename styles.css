@@ -690,17 +690,23 @@ footer {
     position: relative;
 }
 
+    .hero-container h1{
+    font-size: 2.3rem;
+    color: yellow;
+    }
+    
+
 .showcase-image img{
     flex-wrap: wrap;
     width: 100px;
-    margin-left: 8%;
+    margin-left: 15%;
     border-radius: 10px;
     margin-top: 40px; 
 
 }
 
 .home-content img{
-    width: 250px;
+    width: 350px;
     border-radius: 10px;
     margin-top: 30px;
     margin-bottom: 30px;

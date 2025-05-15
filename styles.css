@@ -611,6 +611,10 @@ footer {
     background-color: #ff0000b0;
 }
 
+.social-icons {
+    margin: 20px;
+}
+
 .social-icons a {
     color: beige;
     margin: 20px;

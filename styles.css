@@ -677,11 +677,7 @@ footer {
     .hero {
         height: 35vh;
     }
-
-.hero-container h1{
-    font-size: 3rem;
-}
-
+    
 .hero button{
     left: 40%;
 }
@@ -691,7 +687,7 @@ footer {
 }
 
     .hero-container h1{
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: yellow;
     }
     
@@ -715,7 +711,7 @@ footer {
 
  @keyframes  scamImage {
     0% {
-        box-shadow: 0 0 0;
+        box-shadow: 0 0 50px crimson;
     }
     30%{
         box-shadow: 0 0 50px red;

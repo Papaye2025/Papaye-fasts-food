@@ -685,14 +685,14 @@ footer {
    /*Navigation Start */
     header img{
     margin: 10px;
-    width: 100px;
+    width: 800px;
     height: 30px;
 }
 
 
 
 ul li a{
-    padding: 10px 15px;
+    padding: 10px 10px;
 }
 /*Navigation End*/
     .hero {

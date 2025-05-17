@@ -96,6 +96,10 @@ ul li:hover ul.dropdn{
     padding: 20px;
 }
 
+.privacy-content {
+    margin-top: 30px;
+}
+
 .privacy-section h1, h2, h3 {
     text-align: left;
     color: #ff000d8e;

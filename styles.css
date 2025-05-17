@@ -638,6 +638,8 @@ footer {
 .slideshow-container {
             max-width: 580px;
             position: relative;
+            align-items: center;
+            justify-content: center;
             margin: 30px;
             height: 30vh;
         }
@@ -681,30 +683,61 @@ footer {
         background: beige;
         color: #000;
     }
-   
-    header{
-        justify-content: space-between;
-        padding: auto ;
-        background-color: red;
-        position: relative;
-    }
-
+   /*Navigation Start */
     header img{
-        width: 90px;
-        height: 45px;
-        margin-bottom: 10px;
-    }
+    margin: 10px;
+    width: 120px;
+    height: 38px;
+}
 
-    ul li a{
-        font-size: 12px;
-        padding: 10px 25px 10px 0;
-    }
+.navigate ul{
+    list-style: none;
+    font-size: 12px;
+}
 
-    ul li ul.dropdn{
-        background-color: red;
-        padding: 15px 25px;
-    }
+ul li{
+    display: inline-block;
+    position: relative;
+}
 
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: beige;
+    border-radius: 3px;
+}
+
+ul li a:hover{
+    color: yellow;
+    transition: all 0.5s ease-in-out;
+}
+
+ul li ul.dropdn li{
+    display: inline-block;
+}
+
+ul li ul.dropdn{
+    position: absolute;
+    width: 100%;
+    display: none;
+    text-align: center;
+    background-color: red;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: auto;
+    padding: 15px 20px;
+}
+
+ul li ul.dropdn a{
+    width: 100%;
+   padding: 10px 25px 10px 0;
+}
+
+ul li:hover ul.dropdn{
+    display: block;
+}
+/*Navigation End*/
     .hero {
         height: 35vh;
     }
@@ -885,6 +918,8 @@ legend{
 .slideshow-container {
             max-width: 200px;
             position: relative;
+            justify-content: center;
+            align-items: center;
             margin: 10px;
             height: 30vh;
         }

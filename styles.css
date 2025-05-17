@@ -79,11 +79,12 @@ ul li ul.dropdn{
     overflow: hidden;
     z-index: 1;
     margin-top: auto;
+     padding: 10px 20px;
 }
 
 ul li ul.dropdn a{
     width: 100%;
-    padding: 10px 20px;
+   
 }
 
 ul li:hover ul.dropdn{
@@ -91,13 +92,13 @@ ul li:hover ul.dropdn{
 }
 
 .privacy-section {
-    margin-top: 40px;
+    margin-top: 0;
     padding: 20px;
 }
 
 .privacy-section h1, h2, h3 {
     text-align: left;
-    color: #ff00b;
+    color: #ff000d8e;
 }
 
 /* Hero Section Start  */

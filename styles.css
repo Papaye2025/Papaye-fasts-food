@@ -628,6 +628,11 @@ footer {
     font-size: 20px;
 }
 
+.designer {
+    background:  #4772ff ;
+    padding: 5px;
+}
+
 /* Images Slightshow */
 .slideshow-container {
             max-width: 580px;

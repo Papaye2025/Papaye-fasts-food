@@ -261,7 +261,7 @@ ul li:hover ul.dropdn{
 }
 
 .contact-container{
-    padding: 20px;
+    padding: 10px;
 }
 
 .contact-header h1{
@@ -368,24 +368,24 @@ ul li:hover ul.dropdn{
 .form-section{
     padding: 5%;
     height: 100vh;
+    width: 100%;
 }
 
 .form-section h1{
-    margin-bottom: 30px;
+    margin: 40px;
     text-align: center;
 }
 
 fieldset{
     border-radius: 5px;
 /*     box-shadow: 2px 4px 18px; */
-    border: none;
 }
 
 legend{
     font-size: 18px;
     margin-bottom: 20px;
     margin-left: 43%;
-    color: #ffffff;
+    color: #ff00b0e;
     font-weight: 500;
     background-color: dimgrey;
     padding: 10px;
@@ -399,19 +399,19 @@ legend{
 
 .form-section label, input{
     margin-left: 25%;
-    width: 50%;
+    width: 95%;
     height: 45px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     background: transparent;
     outline: none;
 }
 
 .form-section textarea{
-    width: 50%;
+    width: 90%;
     background: transparent;
     margin-left: 25%;
-    border-radius: 8px;
+    border-radius: 5px;
     outline: none;
     padding: 10px;
     font-size: 14px;
@@ -704,6 +704,7 @@ ul li{
 ul li a{
     display: block;
     text-decoration: none;
+    text-align: center;
     padding: 10px 15px;
     color: beige;
     margin: auto;

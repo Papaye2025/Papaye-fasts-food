@@ -52,6 +52,7 @@ ul li{
 ul li a{
     display: block;
     text-decoration: none;
+    text-align: center;
     padding: 15px 20px;
     color: beige;
     margin: auto;

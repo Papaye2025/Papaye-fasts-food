@@ -53,7 +53,7 @@ ul li a{
     display: block;
     text-decoration: none;
     text-align: center;
-    padding: 15px 20px;
+    padding: 20px 25px;
     color: beige;
     margin: auto;
     border-radius: 3px;
@@ -78,12 +78,7 @@ ul li ul.dropdn{
     overflow: hidden;
     z-index: 1;
     margin: auto;
-    padding: 15px 20px;
-}
-
-ul li ul.dropdn a{
-    width: 100%;
-   padding: 10px 25px 10px 0;
+/*     padding: 20px 25px; */
 }
 
 ul li:hover ul.dropdn{
@@ -368,7 +363,7 @@ ul li:hover ul.dropdn{
 /* Form Section Start */
 .form-section{
     padding: 5%;
-    height: 50vh;
+    height: 80vh;
 }
 
 .form-section h1{
@@ -522,8 +517,11 @@ legend{
    margin: 10px;
    box-shadow: 0 4px 0.998px #ff0000;
    padding: 10px;
-   border-radius: 5px;
-   
+   border-radius: 5px; 
+}
+
+.full-pack-content p {
+    text-transform: lowercase;
 }
 
 .full-pack-content:hover {

@@ -201,6 +201,7 @@ ul li:hover ul.dropdn{
     padding: 10px;
     font-family: sans-serif, 'Times New Roman', Times, serif;
     background-color: beige;
+    box-shadow: 0 0 0.8px; 
 }
 
 .home-text:hover{
@@ -682,7 +683,7 @@ footer {
     }
    
     header{
-        justify-content: center;
+        justify-content: space-between;
         padding: auto ;
         background-color: red;
         position: relative;
@@ -701,7 +702,7 @@ footer {
 
     ul li ul.dropdn{
         background-color: red;
-        padding: 10px 25px 10px 0;
+        padding: 15px 25px;
     }
 
     .hero {
@@ -732,8 +733,8 @@ footer {
 }
 
 .home-content img{
-    width: 350px;
-    border-radius: 10px;
+    width: 330px;
+    border-radius: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
     animation: scamImage 2s ease-in-out infinite;
@@ -893,8 +894,7 @@ legend{
             margin-top: 20px;
         }
 
-
-    .privacy-section {
+  .privacy-section {
     margin-top: 0;
     padding: 20px;
 }

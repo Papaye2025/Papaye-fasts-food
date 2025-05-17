@@ -58,7 +58,8 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #4772ff;
+    background: #4772ff;
+    color: biege;
     transition: all 0.5s ease-in-out;
 }
 
@@ -702,13 +703,14 @@ ul li{
 ul li a{
     display: block;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: beige;
     border-radius: 3px;
 }
 
 ul li a:hover{
-    color: yellow;
+    color: biege;
+    background: #4772ff;
     transition: all 0.5s ease-in-out;
 }
 

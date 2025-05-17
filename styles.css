@@ -67,7 +67,7 @@ ul li ul.dropdn li{
     display: inline-block;
 }
 
-ul li ul.dropdn{
+ul li ul.dropdn {
     position: absolute;
     width: 100%;
     display: none;
@@ -680,7 +680,7 @@ footer {
     header img{
     margin: 10px;
     width: 100px;
-    height: 25px;
+    height: 30px;
 }
 
 

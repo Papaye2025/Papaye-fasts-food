@@ -675,7 +675,6 @@ footer {
 
     body{
         background: beige;
-        color: #000;
     }
    /*Navigation Start */
     header img{
@@ -684,50 +683,10 @@ footer {
     height: 25px;
 }
 
-.navigate ul{
-    list-style: none;
-    font-size: 12px;
-}
 
-ul li{
-    display: inline-block;
-    position: relative;
-}
 
 ul li a{
-    display: block;
-    text-decoration: none;
-    text-align: center;
     padding: 10px 15px;
-    color: beige;
-    margin: auto;
-    border-radius: 3px;
-}
-
-ul li a:hover{
-    color: biege;
-    background: #4772ff;
-    transition: all 0.5s ease-in-out;
-}
-
-ul li ul.dropdn li{
-    display: inline-block;
-}
-
-ul li ul.dropdn{
-    position: absolute;
-    width: 100%;
-    display: none;
-    text-align: center;
-    background-color: red;
-    overflow: hidden;
-    z-index: 1;
-    margin: auto;
-    padding: 10px 15px;
-}
-
-ul li:hover ul.dropdn{
-    display: block;
 }
 /*Navigation End*/
     .hero {

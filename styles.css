@@ -699,10 +699,12 @@ footer {
 
     ul li a{
         font-size: 12px;
+        padding: 10px 25px 10px 0;
     }
 
     ul li ul.dropdn{
         background-color: #ff0000b0;
+        padding: 10px 25px 10px 0;
     }
 
     .hero {

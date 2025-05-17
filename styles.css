@@ -54,6 +54,7 @@ ul li a{
     text-decoration: none;
     padding: 15px 20px;
     color: beige;
+    margin: auto;
     border-radius: 3px;
 }
 
@@ -75,8 +76,7 @@ ul li ul.dropdn{
     background-color: red;
     overflow: hidden;
     z-index: 1;
-    margin-top: auto;
-    padding: 15px 20px;
+    margin: auto;
 }
 
 ul li ul.dropdn a{
@@ -705,6 +705,7 @@ ul li a{
     text-decoration: none;
     padding: 10px 15px;
     color: beige;
+    margin: auto;
     border-radius: 3px;
 }
 
@@ -726,13 +727,7 @@ ul li ul.dropdn{
     background-color: red;
     overflow: hidden;
     z-index: 1;
-    margin-top: auto;
-    padding: 20px 25px;
-}
-
-ul li ul.dropdn a{
-    width: 100%;
-   padding: 10px 25px 0;
+    margin: auto;
 }
 
 ul li:hover ul.dropdn{

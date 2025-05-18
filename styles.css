@@ -399,7 +399,7 @@ legend{
 }
 
 .form-section textarea{
-    width: 60%;
+    width: 100%;
     background: transparent;
     border-radius: 5px;
     outline: none;
@@ -826,7 +826,7 @@ ul li a{
 }
 
 .contact-wrapper{
-    font-size: 12px;
+    font-size: 16px;
     /* border: 1px solid #000; */
 }
 /* Contact End */
@@ -880,7 +880,7 @@ legend{
             height: 30vh;
         }
         .slideshow-container img {
-            margin-left: 15%;
+            margin-left: 50%;
             width: 100px;
             margin-top: 20px;
         }

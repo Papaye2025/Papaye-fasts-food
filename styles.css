@@ -389,7 +389,7 @@ legend{
 }
 
 .form-section label, input{
-    width: 60%;
+    width: 90%;
     height: 40px;
     padding: 10px;
     border-radius: 5px;
@@ -409,7 +409,7 @@ legend{
 
 .form-section button{
     padding: 15px;
-    margin-left: 20%;
+    margin-left: 18%;
     height: 40px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -686,7 +686,8 @@ footer {
 
 
 ul li a{
-    padding: 10px 10px;
+    padding: auto;
+    margin:15px;
 }
 /*Navigation End*/
     .hero {

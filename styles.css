@@ -281,7 +281,7 @@ ul li:hover ul.dropdn{
 }
 
 .contact-infor{
-   display: flex;
+   display: inline-block;
    flex-wrap: wrap;
    margin: 5%;
    font-family: 'Times New Roman', Times, serif;

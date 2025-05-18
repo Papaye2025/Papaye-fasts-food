@@ -360,6 +360,7 @@ ul li:hover ul.dropdn{
 /* Form Section Start */
 .form-section{
     padding: 5%;
+    flex-wrap: wrap;
     height: 100vh;
 }
 
@@ -388,9 +389,8 @@ legend{
 }
 
 .form-section label, input{
-    margin-left: 25%;
     width: 60%;
-    height: 45px;
+    height: 40px;
     padding: 10px;
     border-radius: 5px;
     background: transparent;
@@ -400,7 +400,6 @@ legend{
 .form-section textarea{
     width: 60%;
     background: transparent;
-    margin-left: 25%;
     border-radius: 5px;
     outline: none;
     padding: 10px;
@@ -410,8 +409,8 @@ legend{
 
 .form-section button{
     padding: 15px;
-    margin-left: 25%;
-    height: 45px;
+    margin-left: 20%;
+    height: 40px;
     margin-bottom: 30px;
     margin-top: 30px;
     background-color: #4772ff;
@@ -485,11 +484,6 @@ legend{
     background: white;
 }
 
-.head-tittle {
-    text-transform: uppercase;
-    color: #ff0000;
-}
-
 .menu-section h2 {
     text-transform: capitalize;
      color: #ff0000;
@@ -506,7 +500,7 @@ legend{
     padding: 2%;
     display: flex;
     justify-content: center;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .full-pack-content {
@@ -532,7 +526,6 @@ legend{
 }
 
 .full-chiken {
-   float: left;
    width: 270px;
 }
 
@@ -540,9 +533,9 @@ legend{
     width: 250px;
 }
 
- .full-chiken p {
+ /*.full-chiken p {
     width: 560px;
-} 
+} */
 
 .extra-content{
    width: 270px;
@@ -570,7 +563,7 @@ footer {
     align-items: center;
     margin-top: 40px;
     background-color: #00000099;
-    padding: 30px;
+    padding: 20px;
     color: beige;
 }
 
@@ -644,7 +637,7 @@ footer {
             height: 30vh;
         }
         .slideshow-container img {
-            margin-left: 22%;
+            margin-left: 50%;
             width: 300px;
             margin-top: 20px;
         }
@@ -667,6 +660,7 @@ footer {
             font-size: 18px;
             transition: 0.6s ease;
             background-color: rgba(0,0,0,0.3);
+            border-radius: 50%;
         }
         .next {
             right: 0;
@@ -684,7 +678,7 @@ footer {
     }
    /*Navigation Start */
     header img{
-    margin: 10px;
+    margin: 13px;
     width: 80px;
     height: 30px;
 }
@@ -700,7 +694,7 @@ ul li a{
     }
     
 .hero button{
-    left: 40%;
+    left: 38%;
 }
 
 .home-container{
@@ -781,7 +775,7 @@ ul li a{
 }
 
 .contact-header p{
-    font-size: small;
+    font-size: normal;
 }
 
 .contact-infor h2{
@@ -856,10 +850,10 @@ footer{
 .foot-img img{
     position: absolute;
     width: 120px;
-    top: 60%;
-    right: 70px;
-    padding: 0;
-    border-radius: 10px;
+    top: 58%;
+    right: 68px;
+    padding: 5px;
+    border-radius: 5px;
     background: red;
 
 }
@@ -889,6 +883,6 @@ legend{
 
   .privacy-section {
     margin-top: 0;
-    padding: 20px;
+    padding: 30px;
 }
 

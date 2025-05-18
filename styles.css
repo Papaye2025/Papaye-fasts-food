@@ -460,6 +460,7 @@ legend{
 
 .content-about p {
     line-height: normal;
+    font-size: 16px;
 }
 
 .home-contn p, b{
@@ -471,6 +472,7 @@ legend{
 .home-contn p{
     margin-top: 0px;
     align-self: start;
+    font-size: 16px;
 }
 
 /* About Section End */
@@ -687,7 +689,7 @@ footer {
 
 
 ul li a{
-    padding: auto;
+    padding: 10;;
     margin: 5px;
 }
 /*Navigation End*/

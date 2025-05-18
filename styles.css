@@ -371,6 +371,7 @@ ul li:hover ul.dropdn{
 
 fieldset{
     border-radius: 5px;
+    padding: 5px;
 /*     box-shadow: 2px 4px 18px; */
 }
 
@@ -389,7 +390,7 @@ legend{
 }
 
 .form-section label, input{
-    width: 90%;
+    width: 100%;
     height: 40px;
     padding: 10px;
     border-radius: 5px;
@@ -687,7 +688,7 @@ footer {
 
 ul li a{
     padding: auto;
-    margin:15px;
+    margin: 5px;
 }
 /*Navigation End*/
     .hero {

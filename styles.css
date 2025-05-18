@@ -687,6 +687,15 @@ footer {
     height: 30px;
 }
 
+    header{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    }
+
 
 
 ul li a{

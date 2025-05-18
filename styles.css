@@ -234,6 +234,7 @@ ul li:hover ul.dropdn{
 .contact-wrapper{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -254,13 +255,13 @@ ul li:hover ul.dropdn{
 }
 
 .contact-container{
-    padding: 10px;
+    padding: 5px;
 }
 
 .contact-header h1{
-    font-size: 4rem;
+    font-size: 20px;
     margin-bottom: 20px;
-    color: #ff000d8e;
+    color: #ff000;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -280,14 +281,14 @@ ul li:hover ul.dropdn{
 }
 
 .contact-infor{
-   display: inline-block;
+   display: flex;
    flex-wrap: wrap;
-   margin: 10%;
+   margin: 5%;
    font-family: 'Times New Roman', Times, serif;
 }
 
 .contact-infor h2{
-    font-size: 3rem;
+    font-size: 18px;
     margin-bottom: 30px;
     color: rgba(253, 79, 10, 0.89);
 }
@@ -379,7 +380,7 @@ legend{
     font-size: 18px;
     margin-bottom: 20px;
     margin-left: 30%;
-    color: #ff00b0e;
+    color: #ff000;
     font-weight: 500;
     border-radius: 5px;
 }
@@ -404,7 +405,6 @@ legend{
     border-radius: 5px;
     outline: none;
     padding: 10px;
-    font-size: 14px;
     margin-top: 10px;
 }
 
@@ -656,8 +656,9 @@ footer {
     position: absolute;
     top: 50%;
     width: auto;
+    height: auto;
     padding: 16px;
-    margin-top: -22px;
+    margin-top: -18px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -689,7 +690,7 @@ footer {
 
 
 ul li a{
-    padding: 10px;
+    padding: 10px 5px;
     margin: 5px;
 }
 /*Navigation End*/

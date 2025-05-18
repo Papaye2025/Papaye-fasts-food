@@ -84,7 +84,7 @@ ul li:hover ul.dropdn{
 
 .privacy-section {
     margin: auto;
-    padding: 40px;
+    padding: 20px;
 }
 
 .privacy-content {
@@ -699,8 +699,8 @@ footer {
 
 
 ul li a{
-    padding: 10px 5px;
-    margin: 5px;
+    padding: 10px 15px;
+    margin: auto;
 }
 /*Navigation End*/
     .hero {

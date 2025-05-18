@@ -83,7 +83,7 @@ ul li:hover ul.dropdn{
 }
 
 .privacy-section {
-    margin-top: 10px;
+    margin: auto;
     padding: 40px;
 }
 
@@ -261,7 +261,7 @@ ul li:hover ul.dropdn{
 .contact-header h1{
     font-size: 20px;
     margin-bottom: 20px;
-    color: #ff000be;
+    color: #ff0000b0;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -290,7 +290,7 @@ ul li:hover ul.dropdn{
 .contact-infor h2{
     font-size: 18px;
     margin-bottom: 30px;
-    color: rgba(253, 79, 10, 0.89);
+    color: #ff0000b0;
 }
 
 .contact-infor li, ul{
@@ -367,6 +367,7 @@ ul li:hover ul.dropdn{
 
 .form-section h1{
     margin: 40px;
+    color: #ff0000b0;
     text-align: center;
 }
 
@@ -420,8 +421,7 @@ legend{
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 .form-section .btn2{
@@ -515,7 +515,7 @@ legend{
 }
 
 .full-pack-content p {
-    text-transform: lowercase;
+    text-transform: normal;
 }
 
 .full-pack-content:hover {

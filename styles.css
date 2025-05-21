@@ -639,7 +639,7 @@ footer{
     cursor: pointer;
     position: absolute;
     top: 50%;
-    left: 30%
+    left: 50%
     width: auto;
     height: auto;
     padding: 16px;
@@ -869,7 +869,7 @@ legend{
             height: 30vh;
         }
         .slideshow-container img {
-            margin-left: 50%;
+            margin-left: 30%;
             width: 100px;
             margin-top: 50%;
         }

@@ -85,6 +85,7 @@ ul li:hover ul.dropdn{
 .privacy-section {
     margin: auto;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .privacy-content {

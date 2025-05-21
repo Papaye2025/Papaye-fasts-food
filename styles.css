@@ -852,28 +852,34 @@ footer{
     align-items: center;
 }
 
+/* footer start */
+
+footer{
+    position: relative; 
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .footer-container{
-    flex: 1 1 100%;
+    flex: 38%;
     flex-wrap: wrap;
     padding: 5px;
-    /* box-shadow: 0 4px 18px grey; */
     margin: 5px;
 
 }
 
-.foot-img img{
+  .foot-img img{
     position: absolute;
-    width: 120px;
-    top: 58%;
-    right: 68px;
-    padding: 5px;
-    border-radius: 5px;
-    background: red;
-
-}
+    width: 300px;
+    top: 30%;
+    left: 20px;
+    margin: auto;
+    z-index: -1;
+} 
 
 /* footer end */
-
 
 /* Form Start */
 legend{

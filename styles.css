@@ -567,7 +567,8 @@ footer{
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    background: dackgray;
+    background: black;
+    color: beige;
 }
 
 .footer-container{

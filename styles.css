@@ -593,17 +593,6 @@ footer{
     margin-top: 30px;
     flex-wrap: wrap;
     padding-bottom: 10px;
-    border-bottom: 2px solid #ff0000b0;
-}
-
-.foot-img img{
-    position: absolute;
-    width: 200px;
-    top: 45%;
-}
-
-.foot-img img:hover{
-    background-color: #ff0000b0;
 }
 
 .social-icons {
@@ -633,8 +622,8 @@ footer{
         }
 .slideshow-container img {
     margin-left: 50%;
-    width: 300px;
-    margin-top: 20px;
+    width: 350px;
+    margin-top: 50px;
 }
 .slide {
     display: none;
@@ -647,6 +636,7 @@ footer{
     cursor: pointer;
     position: absolute;
     top: 50%;
+    left: 30%
     width: auto;
     height: auto;
     padding: 16px;
@@ -833,23 +823,11 @@ ul li a{
 }
 /* Contact End */
 
-
-
-/* footer start */
-
-footer{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 /* footer start */
 
 footer{
     position: relative; 
     display: flex;
-    text-align: center;
     justify-content: space-around;
     align-items: center;
 }
@@ -875,8 +853,8 @@ footer{
 
 /* Form Start */
 legend{
-    margin-left: 30%;
-    background: transparent;
+
+    text-align: center;
 }
 /* Form End */
 .slideshow-container {
@@ -890,11 +868,11 @@ legend{
         .slideshow-container img {
             margin-left: 50%;
             width: 100px;
-            margin-top: 20px;
+            margin-top: 50%;
         }
 
   .privacy-section {
-    margin-top: 0;
+    margin: auto;
     padding: 30px;
 }
 

@@ -910,6 +910,7 @@ slideshow-container img {
     width: 40px;
     top: 7%;
     position: absolute;
+    display: none;
         }
 
   .privacy-section {

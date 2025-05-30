@@ -606,6 +606,10 @@ footer{
     flex-wrap: wrap;
 }
 
+.develop {
+    margin:30px;
+}
+
 .social-links a {
     color: beige;
     font-size: 1.2em;
@@ -639,6 +643,7 @@ footer{
 /* Images Slightshow */
 
 .my-slightshow {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -647,7 +652,6 @@ footer{
 }
 .slideshow-container {
     max-width: 580px;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -656,9 +660,8 @@ footer{
 
 .slideshow-container img {
      left: 40%;
-     right: 0;
      width: 400px;
-     top: 45%;
+     top: 40%;
      position: absolute;
 }
 .slide {
@@ -874,7 +877,11 @@ footer{
     left: 20px;
     margin: auto;
     z-index: -1;
-} 
+}
+
+    .develop {
+        margin: 20px;
+    }
 
 /* footer end */
 
@@ -900,7 +907,7 @@ legend{
 } 
 slideshow-container img {
     left: 5%;
-    width: 70px;
+    width: 40px;
     top: 7%;
     position: absolute;
         }

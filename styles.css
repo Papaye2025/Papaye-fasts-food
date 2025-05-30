@@ -416,33 +416,23 @@ legend{
 }
 
 .form-section button{
-    padding: 15px;
-    margin-left: 18%;
+    width: 100%;
     height: 40px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 30px;
     background-color: #4772ff;
     border: none;
     border-radius: 5px;
     color: #ffffff;
-    font-size: 16px;
-    font-weight: 400;
-    cursor: pointer;   
+    font-size: 1em; 
+    font-weight: 500;
 }
-
-.form-section .btn2{
-    background-color: #5c5c5c;
-}
-
-/* .form-section .btn2:hover{
-    background: #5c4c3c;
-} */
 
 .form-section button:hover{
     background: #4542ff;
 }
 
 /* Form Section End */
+
 /* About Section Start  */
 .homepage{
     display: flex;

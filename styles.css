@@ -545,9 +545,9 @@ legend{
 
 .extra-content{
    width: 270px;
-   margin: 5px;
+   margin: 10px;
    box-shadow: 0 0 5px;
-   padding: 5px;
+   padding: 10px;
 }
 
 .extra-content:hover { 
@@ -574,13 +574,15 @@ footer{
 }
 
 .footer-container{
-    flex: 32%;
+    width: 320px;
+    height: 360px;
     flex-wrap: wrap;
     padding: 5px;
     margin: 5px;
+    border: 2px solid rgba(255, 255, 255, .9)
 }
 
-.footer-container he {
+.footer-container h3 {
     text-align: center;
 }
 

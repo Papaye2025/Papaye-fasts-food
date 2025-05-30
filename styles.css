@@ -89,7 +89,7 @@ ul li:hover ul.dropdn{
 }
 
 .privacy-content {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .privacy-section h1, h2, h3 {
@@ -247,7 +247,7 @@ ul li:hover ul.dropdn{
     /* padding: 10%; */
     flex-wrap: wrap;
     margin-top: 50px;
-    box-shadow: 3px 1px 15px;
+    box-shadow: 0 0 15px;
     border-radius: 5px;
 }
 
@@ -262,19 +262,19 @@ ul li:hover ul.dropdn{
 .contact-header h1{
     font-size: 20px;
     margin-bottom: 20px;
-    color: #ff0000b0;
-    font-family: 'Times New Roman', Times, serif;
+    color: #ff0000b0
+    font-family: sans-serif, Times, serif;
 }
 
 .contact-header p{
     text-align: center;
     font-size: 25px;
-    background-color: #5a555583;
+    background-color: rgba(255, 255, 255, .9);
     padding: 5%;
     font-family: sans-serif;
     color: yellow;
     border-radius: 5px;
-    box-shadow: 3px 4px 15px rgba(0, 0, 0, 10);
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 9);
 }
 
 .contact-header p:hover{
@@ -565,14 +565,14 @@ footer{
     position: relative; 
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background: black;
+    background: #162839;
     color: beige;
 }
 
 .footer-container{
-    flex: 38%;
+    flex: 32%;
     flex-wrap: wrap;
     padding: 5px;
     margin: 5px;
@@ -595,6 +595,13 @@ footer{
     margin-top: 30px;
     flex-wrap: wrap;
     padding-bottom: 10px;
+}
+
+.foot-cont li a {
+    color: beige;
+    font-size: 1.1em;
+    text-decoration: none;
+    
 }
 
 .social-icons {
@@ -831,12 +838,12 @@ ul li a{
 footer{
     position: relative; 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .footer-container{
-    flex: 32%;
+    flex: 28%;
     flex-wrap: wrap;
     padding: 10px;
     margin: 5px;
@@ -869,9 +876,11 @@ legend{
             height: 30vh;
         }
         .slideshow-container img {
-            margin-left: 30%;
+            left: 0;
+            right: 0;
             width: 100px;
-            margin-top: 50%;
+            top: 50%;
+            position: absolute;
         }
 
   .privacy-section {

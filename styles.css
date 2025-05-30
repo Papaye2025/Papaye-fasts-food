@@ -90,6 +90,7 @@ ul li:hover ul.dropdn{
 
 .privacy-content {
     margin-top: 50px;
+    font-size: 18px;
 }
 
 .privacy-section h1, h2, h3 {
@@ -237,6 +238,7 @@ ul li:hover ul.dropdn{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    position: relative;
 }
 
 /* .contact-container{
@@ -262,7 +264,7 @@ ul li:hover ul.dropdn{
 .contact-header h1{
     font-size: 20px;
     margin-bottom: 20px;
-    color: #ff0000b0
+    color: #ff0000b0;
     font-family: sans-serif, Times, serif;
 }
 
@@ -272,7 +274,7 @@ ul li:hover ul.dropdn{
     background-color: rgba(255, 255, 255, .9);
     padding: 5%;
     font-family: sans-serif;
-    color: yellow;
+    color: #162839;
     border-radius: 5px;
     box-shadow: 3px 4px 15px rgba(0, 0, 0, 9);
 }
@@ -381,8 +383,8 @@ fieldset{
 legend{
     font-size: 18px;
     margin-bottom: 20px;
-    margin-left: 30%;
-    color: #ff000;
+    text-align: center;
+    color: #ff000b0;
     font-weight: 500;
     border-radius: 5px;
 }
@@ -543,9 +545,9 @@ legend{
 
 .extra-content{
    width: 270px;
-   margin: 10px;
+   margin: 5px;
    box-shadow: 0 0 5px;
-   padding: 10px;
+   padding: 5px;
 }
 
 .extra-content:hover { 

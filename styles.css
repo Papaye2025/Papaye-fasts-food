@@ -625,7 +625,7 @@ footer{
 .social-icons a {
     color: beige;
     margin: 10px;
-    font-size: 18px;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
@@ -886,9 +886,9 @@ legend{
     height: 35vh;
 } 
 slideshow-container img {
-    left: 25%;
+    left: 10%;
     width: 150px;
-    top: 15%;
+    top: 10%;
     position: absolute;
         }
 

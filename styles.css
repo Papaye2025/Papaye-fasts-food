@@ -577,7 +577,7 @@ footer{
 }
 
 .footer-container{
-    flex: 48%;
+    flex: 38%;
     flex-wrap: wrap;
     padding: 5px;
     margin: 5px;
@@ -586,6 +586,7 @@ footer{
 
 .footer-container h3 {
     text-align: center;
+    color: yellow;
 }
 
   .foot-img img{
@@ -608,7 +609,7 @@ footer{
 
 .social-links a {
     color: beige;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-decoration: none;
     
 }
@@ -619,7 +620,7 @@ footer{
 
 .social-icons {
     margin: 38px;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .social-icons a {
@@ -647,9 +648,9 @@ footer{
     height: 30vh;
         }
 .slideshow-container img {
-     left: 60%;
+     left: 55%;
      right: 0;
-     width: 350px;
+     width: 400px;
      top: 45%;
      position: absolute;
 }
@@ -870,6 +871,11 @@ footer{
 
 /* footer end */
 
+    .social-icons {
+        margin: auto;
+        font-size: 1.2em;
+    }
+
 /* Form Start */
 legend{
 
@@ -882,13 +888,13 @@ legend{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    height: 35vh;
+    margin: 5px;
+    height: 40vh;
 } 
 slideshow-container img {
-    left: 10%;
-    width: 150px;
-    top: 10%;
+    left: 5%;
+    width: 100px;
+    top: 7%;
     position: absolute;
         }
 

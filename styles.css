@@ -644,7 +644,7 @@ footer{
     height: 30vh;
         }
 .slideshow-container img {
-     left: 30%;
+     left: 50%;
      right: 0;
      width: 150px;
      top: 30%;
@@ -882,9 +882,9 @@ legend{
             height: 30vh;
         }
         .slideshow-container img {
-            left: 0;
+            left: 50%;
             right: 0;
-            width: 100px;
+            width: 150px;
             top: 30%;
             position: absolute;
         }

@@ -619,8 +619,8 @@ footer{
 }
 
 .social-icons {
-    margin: 20px;
-    font-size: 2em;
+    margin: 38px;
+    font-size: 1.5em;
 }
 
 .social-icons a {
@@ -632,7 +632,7 @@ footer{
 
 .designer {
     background:  #4772ff ;
-    padding: 20px;
+    padding: 10px;
     color: beige;
     border-radius: 5px;
 }

@@ -887,10 +887,9 @@ legend{
     height: 35vh;
 } 
 slideshow-container img {
-    left: 35%;
-    right: 0;
+    left: 25%;
     width: 150px;
-    top: 25%;
+    top: 15%;
     position: absolute;
         }
 

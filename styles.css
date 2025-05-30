@@ -602,9 +602,8 @@ footer{
 
 .foot-cont{
     display: block;
-    margin-top: 30px;
+    margin: 30px;
     flex-wrap: wrap;
-    margin-bottom: 10px;
 }
 
 .social-links a {
@@ -638,6 +637,14 @@ footer{
 }
 
 /* Images Slightshow */
+
+.my-slightshow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-item: center;
+    height: 30vh;
+}
 .slideshow-container {
     max-width: 580px;
     position: relative;
@@ -645,8 +652,8 @@ footer{
     align-items: center;
     justify-content: center;
     margin: 30px;
-    height: 30vh;
-        }
+  }
+
 .slideshow-container img {
      left: 40%;
      right: 0;

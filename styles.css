@@ -258,7 +258,6 @@ ul li:hover ul.dropdn{
 }
 
 .contact-container{
-    position: absolute;
    justify-content: center;
     align-item: centet;
     padding: 5px;

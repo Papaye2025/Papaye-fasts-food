@@ -620,7 +620,7 @@ footer{
 
 .social-icons {
     margin: 38px;
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 .social-icons a {
@@ -648,7 +648,7 @@ footer{
     height: 30vh;
         }
 .slideshow-container img {
-     left: 55%;
+     left: 40%;
      right: 0;
      width: 400px;
      top: 45%;
@@ -883,7 +883,7 @@ legend{
 }
 /* Form End */
 .slideshow-container {
-     max-width: 200px;
+     max-width: 100px;
     position: relative;
     display: flex;
     justify-content: center;

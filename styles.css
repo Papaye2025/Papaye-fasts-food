@@ -609,7 +609,7 @@ footer{
 
 .social-links a {
     color: beige;
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-decoration: none;
     
 }
@@ -620,12 +620,13 @@ footer{
 
 .social-icons {
     margin: 20px;
+    font-size: 2em;
 }
 
 .social-icons a {
     color: beige;
     margin: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -649,7 +650,7 @@ footer{
 .slideshow-container img {
      left: 60%;
      right: 0;
-     width: 300px;
+     width: 350px;
      top: 45%;
      position: absolute;
 }
@@ -883,13 +884,13 @@ legend{
     justify-content: center;
     align-items: center;
     margin: 10px;
-    height: 30vh;
+    height: 35vh;
 } 
 slideshow-container img {
-    left: 50%;
+    left: 35%;
     right: 0;
     width: 150px;
-    top: 30%;
+    top: 25%;
     position: absolute;
         }
 

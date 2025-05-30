@@ -258,6 +258,9 @@ ul li:hover ul.dropdn{
 }
 
 .contact-container{
+    position: absolute;
+   justify-content: center;
+    align-item: centet;
     padding: 5px;
     margin: auto;
 }
@@ -579,7 +582,7 @@ footer{
     flex-wrap: wrap;
     padding: 5px;
     margin: 5px;
-    border: 2px solid rgba(255, 255, 255, .9)
+    /*border: 2px solid rgba(255, 255, 255, .9)*/
 }
 
 .footer-container h3 {
@@ -606,7 +609,7 @@ footer{
 
 .social-links a {
     color: beige;
-    font-size: 1.1em;
+    font-size: 2.5em;
     text-decoration: none;
     
 }
@@ -628,7 +631,7 @@ footer{
 
 .designer {
     background:  #4772ff ;
-    padding: 10px;
+    padding: 20px;
     color: beige;
     border-radius: 5px;
 }
@@ -644,10 +647,10 @@ footer{
     height: 30vh;
         }
 .slideshow-container img {
-     left: 50%;
+     left: 60%;
      right: 0;
-     width: 150px;
-     top: 30%;
+     width: 300px;
+     top: 45%;
      position: absolute;
 }
 .slide {
@@ -843,7 +846,7 @@ ul li a{
 
 footer{
     position: relative; 
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
 }
@@ -874,19 +877,20 @@ legend{
 }
 /* Form End */
 .slideshow-container {
-            max-width: 200px;
-            position: relative;
-            justify-content: center;
-            align-items: center;
-            margin: 10px;
-            height: 30vh;
-        }
-        .slideshow-container img {
-            left: 50%;
-            right: 0;
-            width: 150px;
-            top: 30%;
-            position: absolute;
+     max-width: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 30vh;
+} 
+slideshow-container img {
+    left: 50%;
+    right: 0;
+    width: 150px;
+    top: 30%;
+    position: absolute;
         }
 
   .privacy-section {

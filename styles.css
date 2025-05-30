@@ -604,7 +604,7 @@ footer{
     display: block;
     margin-top: 30px;
     flex-wrap: wrap;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .social-links a {
@@ -632,7 +632,7 @@ footer{
 
 .designer {
     background:  #4772ff ;
-    padding: 10px;
+    padding: 5px;
     color: beige;
     border-radius: 5px;
 }
@@ -873,7 +873,7 @@ footer{
 
     .social-icons {
         margin: auto;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
 /* Form Start */
@@ -893,7 +893,7 @@ legend{
 } 
 slideshow-container img {
     left: 5%;
-    width: 100px;
+    width: 70px;
     top: 7%;
     position: absolute;
         }

@@ -637,6 +637,7 @@ footer{
 .slideshow-container {
     max-width: 580px;
     position: relative;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px;

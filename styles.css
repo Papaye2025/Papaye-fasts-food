@@ -259,6 +259,7 @@ ul li:hover ul.dropdn{
 
 .contact-container{
     padding: 5px;
+    margin: auto;
 }
 
 .contact-header h1{
@@ -574,8 +575,7 @@ footer{
 }
 
 .footer-container{
-    width: 320px;
-    height: 360px;
+    flex: 48%;
     flex-wrap: wrap;
     padding: 5px;
     margin: 5px;
@@ -608,6 +608,7 @@ footer{
     color: beige;
     font-size: 1.1em;
     text-decoration: none;
+    list-style: none;
     
 }
 
@@ -639,9 +640,11 @@ footer{
     height: 30vh;
         }
 .slideshow-container img {
-    margin-left: 50%;
-    width: 350px;
-    margin-top: 50px;
+     left: 0;
+     right: 0;
+     width: 100px;
+     top: 30%;
+     position: absolute;
 }
 .slide {
     display: none;
@@ -653,12 +656,12 @@ footer{
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    left: 50%
+    top: 30%;
+    left: 0;
+    right: 0;
     width: auto;
     height: auto;
     padding: 16px;
-    margin-top: -18px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -851,9 +854,9 @@ footer{
 }
 
 .footer-container{
-    flex: 28%;
+    flex: 20%;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 
 }
@@ -887,12 +890,12 @@ legend{
             left: 0;
             right: 0;
             width: 100px;
-            top: 50%;
+            top: 30%;
             position: absolute;
         }
 
   .privacy-section {
     margin: auto;
-    padding: 20px;
+    padding: 10px 5px;
 }
 

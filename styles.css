@@ -576,7 +576,10 @@ footer{
     flex-wrap: wrap;
     padding: 5px;
     margin: 5px;
+}
 
+.footer-container he {
+    text-align: center;
 }
 
   .foot-img img{
@@ -597,7 +600,7 @@ footer{
     padding-bottom: 10px;
 }
 
-.foot-cont li a {
+.social-links a {
     color: beige;
     font-size: 1.1em;
     text-decoration: none;
@@ -619,6 +622,7 @@ footer{
     background:  #4772ff ;
     padding: 10px;
     color: beige;
+    border-radius: 5px;
 }
 
 /* Images Slightshow */

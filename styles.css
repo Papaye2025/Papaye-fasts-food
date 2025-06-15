@@ -565,7 +565,8 @@ legend{
 
 footer{
     position: relative; 
-   /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -574,8 +575,12 @@ footer{
 }
 
 .footer-wrapper{
-    display: flex;
-    flex-wrap: wrap;
+    padding:10px;
+    color: white;
+}
+
+.footer-container{
+    flex: 38%;
     justify-content: center;
     align-items:center;
     padding: 5px;

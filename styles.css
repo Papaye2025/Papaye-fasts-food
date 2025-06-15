@@ -535,6 +535,10 @@ legend{
     width: 250px;
 }
 
+.sandwich {
+    background: white;
+}
+
  /*.full-chiken p {
     width: 560px;
 } */
@@ -570,8 +574,10 @@ footer{
 }
 
 .footer-container{
-    flex: 38%;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
     padding: 5px;
     margin: 5px;
     /*border: 2px solid rgba(255, 255, 255, .9)*/

@@ -573,7 +573,7 @@ footer{
     color: beige;
 }
 
-.footer-container{
+.footer-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

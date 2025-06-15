@@ -173,7 +173,7 @@ ul li:hover ul.dropdn{
 
 /* Home Start */
 .home-container{
-    display: flex;
+    display: block;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
@@ -205,12 +205,13 @@ ul li:hover ul.dropdn{
 }
 
 .home-content img{
-    width: 500px;
+    width: 50%;
+    height: 150px;
     border-radius: 3px;
 }
 
  .showcase-image img{
-    width: 200px;
+    width: 250px;
     margin: 5px;
     border-radius: 3px; 
     margin-left: 65px;
